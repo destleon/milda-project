@@ -1,0 +1,113 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-img {
+  position: relative;
+  width: 100%;
+}
+
+#hero-big {
+  position: relative;
+  display: none;
+}
+
+.hero-text {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.76);
+  width: 100%;
+}
+
+#h1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2E5180;
+  padding: 30px 30px 10px 30px;
+}
+
+#body1 {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  padding: 10px 55px 30px 55px;
+}
+
+.about-us {
+  background-color: #2E5180;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+#h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  font-weight: 400;
+}
+
+#body2 {
+  font-size: 14px;
+  font-weight: 100;
+  color: #f2f2f2;
+  padding: 15px 55px 15px 55px;
+}
+
+/*tablet*/
+@media(min-width: 600px) {
+  #hero-big {
+    display: block;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  #h1 {
+    font-size: 20px;
+    padding: 30px 30px 10px 30px;
+  }
+
+  #body1 {
+    font-size: 16px;
+    padding: 10px 240px 30px 240px;
+  }
+
+  #h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+
+  #body2 {
+    font-size: 17px;
+    font-weight: 100;
+    padding: 25px 90px 15px 90px;
+  }
+}
+
+/*desktop*/
+@media(min-width: 1280px) {
+  #h1 {
+    font-size: 30px;
+    padding: 80px 30px 20px 30px;
+  }
+
+  #body1 {
+    font-size: 26px;
+    padding: 10px 650px 70px 650px;
+  }
+
+  #h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 70px 0px 30px 0px;
+  }
+
+  #body2 {
+    font-size: 26px;
+    font-weight: 200;
+    padding: 25px 570px 80px 570px;
+  }
+}

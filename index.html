@@ -1,0 +1,161 @@
+<!DOCTYPE html> <!--document type declaration-->
+<html> <!--tells browser this is the html code-->
+
+<head> <!--contains meta tags, i.e. info about web page-->
+  <title>Learning HTML</title>
+  <!--brief description of web content-->
+  <meta name="description" contents="This is a webpage for learning">
+  <meta name="keywords" content="Azubi, learning, frontend, jobs">
+  <!--indexing pages, folowing web pages links-->
+  <meta name="robots" content="index, follow">
+  <!--renders characters on web page/character encoding-->
+  <meta charset="UTF-8">
+  <!--viewport tag for responsive web-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css files-->
+  <link rel="stylesheet" href="./styles.css/main.css">
+  <link rel="stylesheet" href="./styles.css/header.css">
+  <link rel="stylesheet" href="./styles.css/body.css">
+  <link rel="stylesheet" href="./styles.css/footer.css">
+  <link rel="stylesheet" href="./styles.css/hamburger-menu.css">
+  <link rel="stylesheet" href="./styles.css/navigation.css">
+  <link rel="stylesheet" href="./styles.css/contact-form.css">
+  <link rel="stylesheet" href="./styles.css/button.css">
+  <link rel="stylesheet" href="./styles.css/hero.css">
+  <!--tab icon-->
+  <link rel="icon" href="./img/logo.png">
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <!--azubi logo-->
+      <img class="site-logo-img" src="./img/azubi-logo.png" alt="Azubi africa logo">
+      <!--hamburger menu-->
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+    </div>
+  </header>
+  <!--navigation within menu-->
+  <nav>
+    <a href="#about-us">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact-us" class="contact-us-button">Contact Us</a>
+  </nav>
+  <hero>
+    <!--hero image and text-->
+    <div class="hero">
+      <img class="hero-img" src="./img/hero.png" alt="hero image - man sitting with a laptop and thinking">
+      <img class="hero-img" id="hero-big" src="./img/hero-big.png"
+        alt="hero image - man sitting with a laptop and thinking">
+      <div class="hero-text">
+        <p id="h1">Earn yourself the Tech Career that you deserve</p>
+        <p class="body-text" id="body1">More than 23,000 job openings exist for cloud developers and data analysts!</p>
+      </div>
+    </div>
+    <!--about us section-->
+    <div class="about-us">
+      <p id="h2">Why Azubi Africa?</p>
+      <p id="body2">People learn best by doing. Our program is not just an endless series of video
+        lessons. It
+        incorporates experiential learning throughout, using interactive labs that put you in control of interesting
+        situations.</p>
+    </div>
+  </hero>
+  <main>
+    <!--services section-->
+    <div class="services">
+      <p id="h3">Why choose us as your trusted learning partner?</p>
+      <hr id="hr">
+      <p id="body3">We have designed a system that is tailored to your needs.</p>
+    </div>
+    <!--main page text with illustrations and buttons-->
+    <div class="reasons-why">
+      <!--section 1-->
+      <div class="section">
+        <img class="body-img" src="./img/instructor.png" alt="Man speaking through laptop">
+        <p class="main-header">Instructor-led classes</p>
+        <p class="main-body">Classes are led by experienced instructors who are subject matter experts in
+          their field.
+        </p>
+        <button class="button">Read More</button>
+      </div>
+      <!--section 2-->
+      <div class="section">
+        <img class="body-img" src="./img/experience.png" alt="Man working with laptop">
+        <p class="main-header">Real world experience</p>
+        <p class="main-body">Azubi provides learners with the opportunity to apply the skills and knowledge
+          they have learned in a real-world context.</p>
+        <button class="button">Read More</button>
+      </div>
+      <!--section 3-->
+      <div class="section">
+        <img class="body-img" src="./img/support.png" alt="People advising each other">
+        <p class="main-header">Personalized career support</p>
+        <p class="main-body">Personalized career support can help learners to identify their career goals
+          and develop a plan for achieving them.</p>
+        <button class="button">Read More</button>
+      </div>
+    </div>
+    <!--contact us section-->
+    <div class="contact-us">
+      <p class="main-header">Contact Us</p>
+      <p class="main-body">If you have any specific concerns, please feel free to contact us.
+        <br /><br />We welcome any comments, suggestions, feedback, questions, or requests you have.
+      </p>
+      <!--contact form-->
+      <div class="contact-form">
+        <input type="text" class="input" placeholder="Name">
+        <input type="text" class="input" placeholder="Email">
+        <input type="text" class="input" id="message" placeholder="Message">
+      </div>
+      <!--submit button-->
+      <button class="button" id="submit">Submit</button>
+    </div>
+  </main>
+  <footer>
+    <!--footer logo-->
+    <img class="site-logo-img" id="footer-logo" src="./img/azubi-logo.png" alt="Azubi africa logo">
+    <div class="contact-info">
+      <!--location info-->
+      <div class="info">
+        <div class="icon">
+          <i data-feather="map-pin"></i>
+        </div>
+        <p class="footer-text">Reiss Jct Rd, <br /> North Legon-Accra-Ghana</p>
+      </div>
+      <!--contact info-->
+      <div class="info">
+        <div class="icon">
+          <i data-feather="phone"></i>
+        </div>
+        <p class="footer-text">123-45-679</p>
+      </div>
+    </div>
+    <!--soc media icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <div class="soc-media">
+      <!--twitter icon-->
+      <div class="icon" id="twitter">
+        <i data-feather="twitter"></i>
+      </div>
+      <!--facebook icon-->
+      <div class="icon" id="facebook">
+        <i data-feather="facebook"></i>
+      </div>
+      <!--instagram icon-->
+      <div class="icon" id="instagram">
+        <i data-feather="instagram"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

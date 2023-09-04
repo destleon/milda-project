@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media(min-width: 600px) {
+  .header-text {
+    font-size: 20px;
+    padding: 10px 100px;
+  }
+
+  .body-text {
+    font-size: 18px;
+    padding: 10px 100px;
+  }
+}
+
+/*tablet*/
+@media(min-width: 600px) {
+  .header-text {
+    font-size: 20px;
+    padding: 10px 100px;
+  }
+
+  .body-text {
+    font-size: 18px;
+    padding: 10px 100px;
+  }
+}
+
+/*desktop*/
+@media(min-width: 1280px) {}

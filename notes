@@ -1,0 +1,36 @@
+<!--menu contents for web-->
+<nav class="nav">
+  <ul> <!--alternative - ordered list <ol>-->
+    <li><a href="#">About Us</a></li> <!--anchor tag-->
+    <li><a href="#">Services</a></li>
+    <li><a href="#" class="contact-us-button">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!--overlay-->
+<div id="overlay">
+  <nav id="overlay-nav">
+    <ul> <!--alternative - ordered list <ol>-->
+      <li><a href="#">About Us</a></li> <!--anchor tag-->
+      <li><a href="#">Services</a></li>
+      <li><a href="#" class="contact-us-button">Contact Us</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
+
+
+<!--semantic elements; help with accessibility-->
+<article></article>
+<footer></footer>
+<section></section>
+<figures></figures>
+<aside></aside>
+
+
+<span></span>
+<!--spans the width of the content. It's an inline element. Block elements take the whole width, e.g. paragraphs, headers-->
+
+<div></div> <!--division element-->
+
+<!--divs and spans are containers-->

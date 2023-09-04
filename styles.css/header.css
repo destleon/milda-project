@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.site-logo-img {
+  height: 35px;
+  cursor: pointer;
+}
